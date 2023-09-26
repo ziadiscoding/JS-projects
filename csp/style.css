@@ -4,17 +4,24 @@
     box-sizing: border-box;
 }
 
-form {
+
+fieldset {
     margin: 50px;
+    padding: 20px;
     display: grid;
-    grid-template-columns: 200px 1fr ;
+    grid-template-columns: 200px 1fr;
     gap: 2vw;
 }
 
-button{
+fieldset>legend {
+    padding: 20px;
+    font-size: larger;
+}
+
+button {
     position: absolute;
-    top: 40%;
-    left:48% ;
+    bottom: 20%;
+    left: 48%;
     width: 10vw;
     height: 5vh;
 }
